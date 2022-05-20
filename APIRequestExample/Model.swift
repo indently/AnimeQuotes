@@ -18,6 +18,7 @@ struct Quote: Decodable, Identifiable {
     }
     
     static var SampleQuotes: [Quote] = Bundle.main.decode(file: "quotes.json")
+    
     static var SampleQuote = SampleQuotes.first!
 }
 

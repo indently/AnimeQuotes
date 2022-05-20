@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A959411283772CE00BB9885 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A959410283772CE00BB9885 /* Extensions.swift */; };
 		7AA6251E2836D91A00E8D72B /* APIRequestExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6251D2836D91A00E8D72B /* APIRequestExampleApp.swift */; };
 		7AA625202836D91A00E8D72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6251F2836D91A00E8D72B /* ContentView.swift */; };
 		7AA625222836D91B00E8D72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA625212836D91B00E8D72B /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A959410283772CE00BB9885 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7AA6251A2836D91A00E8D72B /* APIRequestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIRequestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA6251D2836D91A00E8D72B /* APIRequestExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestExampleApp.swift; sourceTree = "<group>"; };
 		7AA6251F2836D91A00E8D72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				7AA6251D2836D91A00E8D72B /* APIRequestExampleApp.swift */,
 				7AA6252D2836D97D00E8D72B /* ApiManager.swift */,
+				7A959410283772CE00BB9885 /* Extensions.swift */,
 				7AA6251F2836D91A00E8D72B /* ContentView.swift */,
 				7AA625312836DC3700E8D72B /* ItemView.swift */,
 				7AA6252B2836D92E00E8D72B /* ViewModel.swift */,
@@ -159,6 +162,7 @@
 				7AA625202836D91A00E8D72B /* ContentView.swift in Sources */,
 				7AA6252C2836D92E00E8D72B /* ViewModel.swift in Sources */,
 				7AA6251E2836D91A00E8D72B /* APIRequestExampleApp.swift in Sources */,
+				7A959411283772CE00BB9885 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

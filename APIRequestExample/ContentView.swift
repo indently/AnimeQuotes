@@ -12,8 +12,16 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            quotesList
-                .navigationTitle("Anime Quotes")
+            List {
+                ForEach(vm.quotes) { quote in
+                    ItemView(quote: quote)
+                        .padding(4)
+                }
+            }
+            .refreshable {
+                vm.makeApiRequest()
+            }
+            .navigationTitle("Anime Quotes")
         }
     }
 }
@@ -21,19 +29,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-extension ContentView {
-    var quotesList: some View {
-        List {
-            ForEach(vm.quotes) { quote in
-                ItemView(quote: quote)
-                    .padding(4)
-            }
-        }
-        .refreshable {
-            vm.makeApiRequest()
-        }
     }
 }
